@@ -1,0 +1,14 @@
+A = {100, 7, 8}
+B = {200, 4, 5}
+C = {300, 2, 3}
+D = {100, 200, 300}
+
+a = A & D
+b = B & D
+c = C & D
+d = A & B & C & D
+
+print("a. A∩D = ", a)
+print("b. B∩D = ", b)
+print("c. C∩D = ", c)
+print("d. A∩B∩C∩D = ",d)

@@ -1,0 +1,11 @@
+A = {'a', 'b', 'c', 'd'}
+B = {'c', 'd', 'e'}
+C = {}
+
+def symmetric_difference(set1, set2):
+  return set(set1) ^ set(set2)
+
+print("a. A symmetric difference B :", symmetric_difference(A, B))
+print("b. B symmetric difference A :", symmetric_difference(B, A))
+print("c. A symmetric difference C :", symmetric_difference(A, C))
+print("d. B symmetric difference C :", symmetric_difference(B, C))
